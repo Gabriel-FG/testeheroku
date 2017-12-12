@@ -5,7 +5,8 @@ class Teste extends CI_Controller {
 
 	public function index($value='')
 	{
-		echo "string";
+		var_dump(base_url());
+		
 	}
 
 }
